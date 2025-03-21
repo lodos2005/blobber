@@ -14,7 +14,7 @@ jobs:
     strategy:
       matrix:
         os: [ubuntu-latest, windows-latest, macos-latest]
-        go-version: [1.18] # Go versiyonunu belirt
+        go-version: [1.24] # Go versiyonunu belirt
 
     steps:
       - name: Checkout code
